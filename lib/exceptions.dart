@@ -7,7 +7,7 @@ void main(List<String> args) {
     print('Exception happened: $e');
     print('Stack trace: $s');
   } finally {
-  print('This line still executed');
+    print('This line still executed');
 
 /*
 Output :
@@ -17,4 +17,5 @@ Stack trace: #0      int.~/ (dart:core-patch/integers.dart:24:7)
 #2      _startIsolate.<anonymous closure> (dart:isolate-patch/isolate_patch.dart:305:32)
 #3      _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:174:12)
  */
+  }
 }
