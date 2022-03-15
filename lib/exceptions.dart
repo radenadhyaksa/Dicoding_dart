@@ -6,7 +6,8 @@ void main(List<String> args) {
   } catch (e, s) {
     print('Exception happened: $e');
     print('Stack trace: $s');
-  }
+  } finally {
+  print('This line still executed');
 
 /*
 Output :
