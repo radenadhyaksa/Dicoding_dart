@@ -8,11 +8,14 @@ void main() {
   } else {
     print("Sorry, we’ve closed");
   }
+}
+
   /**
    * versi simple
    * Fitur menarik lain dari Dart adalah conditional expressions. 
    * Dengan ini kita bisa menuliskan if-else statement hanya dalam satu baris:
-   * /
+   */
+
   //var shopStatus = now > openHours ? "Hello, we're open" : "Sorry, we've closed";
   //print(shopStatus);
 
@@ -44,4 +47,4 @@ void main() {
   //     return 'E';
   //   }
   // }
-}
+
