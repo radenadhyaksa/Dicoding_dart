@@ -20,8 +20,7 @@ void buyAMeal(String? favoriteFood) {
 }
 
 
-/**
- * Cara kedua yang bisa kita lakukan adalah 
+/* Cara kedua yang bisa kita lakukan adalah 
  * menggunakan bang operator (!). 
  * Dengan operator ini kita memberitahu compiler dan 
  * memberikan jaminan bahwa variabel tidak akan bernilai null. 
