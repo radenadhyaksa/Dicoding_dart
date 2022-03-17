@@ -21,4 +21,11 @@ void main() {
   var mapValues = capital.values;
   print(mapValues);
   /// output mapValues = (Indonesia, England, Japan)
+  
+  /**
+   * Untuk menambahkan key-value baru ke dalam Map, kita bisa melakukannya dengan cara berikut:
+   */
+  capital['New Delhi'] = 'India';
+  print(capital);
+  /// Output: {Jakarta: Indonesia, London: England, Tokyo: Japan, New Delhi: India}
 }
