@@ -14,4 +14,14 @@ void main(List<String> args) {
   for (int i = 0; i < stringList.length; i++) {
     print(stringList[i]);
   }
+
+  /**
+   * untuk menghapus data terdapat beberapa fungsi remove
+   */
+  
+  // stringList.remove('Programming'); // Menghapus list dengan nilai Programming
+  // stringList.removeAt(1); // Menghapus list pada index ke-1
+  // stringList.removeLast(); // Menghapus data list terakhir
+  // stringList.removeRange(0,
+  //     2); // Menghapus list mulai index ke-0 sampai ke-1 (indeks 2 masih dipertahankan)
 }
