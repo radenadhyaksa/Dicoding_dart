@@ -21,6 +21,8 @@ void main() {
 /* output
   Gray is eating.
  */
+}
+
 
 ///Cascade notation juga akan sering kita temui pada builder pattern seperti ini:
   // final addressBook = (AddressBookBuilder()
@@ -28,4 +30,3 @@ void main() {
   //       ..email = 'jenny@example.com'
   //       ..phone = '415-555-0100')
   //     .build();
-}
