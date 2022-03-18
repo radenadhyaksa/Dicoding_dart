@@ -1,0 +1,6 @@
+diff a/lib/dart_future/quiz3_future.dart b/lib/dart_future/quiz3_future.dart	(rejected hunks)
+@@ -0,3 +1,4 @@
++void main() {
+   print('Fetching username...');
+   fetchUsername().then((value) {
+     print('You are logged in as $value');
